@@ -16,7 +16,7 @@ services:
     ports:
       - 5000:5000
     volumes:
-      - .:/app
+      - .:/usr/src/yol
     environment:
       PORTS: 5000
       MONGODB_URI: mongodb://mongo_db:27017
