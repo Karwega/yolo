@@ -30,7 +30,7 @@ services:
   client:
     container_name: yolo_client
     build: ./client
-    image: karwega/yolo_client
+    image: karwega/yolo_client:v.0.0.1
     tty: true
     ports:
       - 3000:3000

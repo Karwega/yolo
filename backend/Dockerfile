@@ -4,7 +4,7 @@ WORKDIR /usr/src/yolo-back
 
 COPY package*.json .
 
-RUN npm ci
+RUN npm install
 
 COPY . .
 
