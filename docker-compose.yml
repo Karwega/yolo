@@ -9,6 +9,7 @@ services:
     volumes:
       - mongo_db:/data/db
 
+# This is the backend service #
   backend:
     container_name: yolo_backend
     build: ./backend
@@ -21,13 +22,16 @@ services:
       PORTS: 5000
       MONGODB_URI: mongodb://mongo_db:27017
       DB_NAME: yolomy
+    
     depends_on:
       - mongo_db
 
+# This is the client service #
   client:
     container_name: yolo_client
     build: ./client
     image: karwega/yolo_client
+    tty: true
     ports:
       - 3000:3000
     environment:
