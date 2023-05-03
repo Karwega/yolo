@@ -20,7 +20,10 @@ The instructions are clearly stated in the README.md file of the repository and 
 * Run the folllowing to start the app `npm start`
 
 ## 2. Pushing the images to Docker Hub
-Once the above procedures are followed, push both the **.../yolo_client:v.0.0.1** and the **.../yolo_backend:v.0.0.1**
+Once the above procedures are followed, 
+* Note the tag names of the created images. If not sure of the tags, run `sudo docker images ls` to list all the images you have.
+* Log in to Docker Hub on your computer (if not already done) running `sudo docker login` in terminal. This will prompt you to input your Docker Hub username and password.
+* Once logged in and the image names and versions noted, push both the **.../yolo_client:v.0.0.1** and the **.../yolo_backend:v.0.0.1** images to Docker Hub by running `sudo docker push .../yolo_client:v.0.0.1` and `sudo docker push .../yolo_backend:v.0.0.1` respectively.
 
 ## 2. Testing the microservice
 To confirm correct funtioning of the system, follow the below instructions, and if they run accordingly, the microservice is good to go!
