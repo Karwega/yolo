@@ -8,8 +8,9 @@ Git workflow used to achieve the task.
 Yolomy is a business that trades clothing. It has a microservice which helps in running of the business on an online instance. The microservice is divided into two parts of it that work together to assist in the seamless functionality of the service:
     <p>- Client (frontend)</p>
     <p>- Backend</p>
-## 1. Section 1
-### Running the client-end and the back-end microservice on your localhost
+## Section A
+### 1. Running the client-end and the back-end microservice on your localhost
+The instructions are clearly stated in the README.md file of the repository and are illustrated as follows:
 * Navigate to the Client Folder `cd ../client`
 * Run the folllowing command to install the dependencies `npm install`
 * Run the folllowing to start the app `npm start`
@@ -17,4 +18,4 @@ Yolomy is a business that trades clothing. It has a microservice which helps in 
 * Run the folllowing command to install the dependencies `npm install`
 * Run the folllowing to start the app `npm start`
 
-Section 2
+### 2. 
