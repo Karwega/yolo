@@ -21,7 +21,7 @@ The instructions are clearly stated in the README.md file of the repository and 
 ## 2. Creating the Dockerfile
 For the microservice to run accordingly, a Dockerfile should be created in the client directory (*client/...*) as well as the backend directory (*backend/...*). The following steps illustrate how to go about it.
 * Choose a base image on which to build each container, preferably, the Alpine for Node.js image variant might, because it provides an overall small image size, and even smaller vulnerabilities count.
-* Set the port for mongo_db to **2717:27017** , backend to **5000:5000** and client to **3000:3000**
+* Set the port for mongo_db to `2717:27017` , backend to `5000:5000` and client to `3000:3000`
 * Set the appropriate parameters in the Dockerfile
 * Make sure to include the `CMD [ "npm", "run" , "start" ]` in order to get the service up and running
 
