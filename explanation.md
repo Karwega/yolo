@@ -31,7 +31,7 @@ This file is responsible for the orchestration of the e-commerce platform, as we
 * This file consists of two parts; **services** and **volumes**
 * In the services section, configure the mongo_db, client and backend sections
 * In the volumes section, configure the mongo_db section
-<p>*NOTE: Make sure to include `depends_on: - mongo_db` in the backend section of the services configured*</p>
+<p><i>NOTE: Make sure to include `depends_on: - mongo_db` in the backend section of the services configured</i></p>
 
 ## 4. Pushing the images to Docker Hub
 Once the above procedures are followed, 
