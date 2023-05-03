@@ -5,3 +5,12 @@ Docker-compose volume definition and usage (where necessary).
 Git workflow used to achieve the task.
 
 
+Section 1
+Navigate to the Client Folder `cd client`
+Run the folllowing command to install the dependencies `npm install`
+Run the folllowing to start the app `npm start`
+Open a new terminal and run the same commands in the backend folder `cd ../backend`
+Run the folllowing command to install the dependencies `npm install`
+Run the folllowing to start the app `npm start`
+
+Section 2
