@@ -22,6 +22,7 @@ For the microservice to run accordingly, a Dockerfile should be created in the c
 
 ## 3. Creating and configuring the docker-compose.yml
 This file is responsible for the orchestration of the e-commerce platform, as well as pulling of the mongodb image to be used, because the backend functionality requires a mongodb database. The following steps illustrate how to go about it
+* Create a file named **docker-compose.yml** in the directory "yolo/..."
 * Start by specifying the version used by writing `version: "3.9"`
 * This file consists of two parts; **services** and **volumes**
 * In the services section, configure the mongo_db, client and backend sections
