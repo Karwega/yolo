@@ -19,4 +19,4 @@ The instructions are clearly stated in the README.md file of the repository and 
 * Run the folllowing to start the app `npm start`
 
 ## 2. Pushing the images to Docker Hub
-Once the above procedures are followed, push both the **../yolo_client:v.0.0.1** and the **../yolo_backend:v.0.0.1**
+Once the above procedures are followed, push both the **.../yolo_client:v.0.0.1** and the **.../yolo_backend:v.0.0.1**
