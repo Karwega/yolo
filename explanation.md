@@ -20,7 +20,8 @@ The instructions are clearly stated in the README.md file of the repository and 
 * Run the folllowing to start the app `npm start`
 
 ## 2. Creating the Dockerfile
-For the microservice to run accordingly, a Dockerfile should be created in *.../client/* as well as *.../backend/* 
+For the microservice to run accordingly, a Dockerfile should be created in the client directory (*client/...*) as well as the backend directory (*backend/...*). The following steps illustrate how to go about it.
+* 
 
 ## 2. Pushing the images to Docker Hub
 Once the above procedures are followed, 
