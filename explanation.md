@@ -1,8 +1,3 @@
-Dockerfile directives used in the creation and running of each container.
-Docker-compose Networking (Application port allocation and a bridge network implementation) where necessary.
-Docker-compose volume definition and usage (where necessary).
-Git workflow used to achieve the task.
-
 # Yolomy Microservice Setup (explained)
 Yolomy is a business that trades clothing. It has a microservice which helps in running of the business on an online instance. The microservice is divided into two parts of it that work together to assist in the seamless functionality of the service:
     <p>- Client (frontend)</p>
