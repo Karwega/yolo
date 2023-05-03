@@ -10,9 +10,7 @@ Yolomy is a business that trades clothing. It has a microservice which helps in 
     <p>- Backend</p>
 ## 1. Section 1
 ### Running the client-end and the back-end microservice on your localhost
-
-* Section 1
-* Navigate to the Client Folder `cd client`
+* Navigate to the Client Folder `cd ../client`
 * Run the folllowing command to install the dependencies `npm install`
 * Run the folllowing to start the app `npm start`
 * Open a new terminal and run the same commands in the backend folder `cd ../backend`
