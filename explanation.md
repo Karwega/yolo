@@ -21,3 +21,9 @@ The instructions are clearly stated in the README.md file of the repository and 
 
 ## 2. Pushing the images to Docker Hub
 Once the above procedures are followed, push both the **.../yolo_client:v.0.0.1** and the **.../yolo_backend:v.0.0.1**
+
+## 2. Testing the microservice
+To confirm correct funtioning of the system, follow the below instructions, and if they run accordingly, the microservice is good to go!
+* Open a terminal and run the command `sudo docker compose up` to run the containers from the images. The website of the microservice should be up and running on the local address: <a href="http://localhost:3000/"><font color="blue">http://localhost:3000/</font></a>
+
+* Add a product or two in the site, and refresh the page to confirm that they have been added successfully
