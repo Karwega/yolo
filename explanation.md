@@ -8,8 +8,8 @@ Git workflow used to achieve the task.
 Yolomy is a business that trades clothing. It has a microservice which helps in running of the business on an online instance. The microservice is divided into two parts of it that work together to assist in the seamless functionality of the service:
     <p>- Client (frontend)</p>
     <p>- Backend</p>
-## Section A
-### 1. Running the client-end and the back-end microservice on your localhost
+
+## 1. Running the client-end and the back-end microservice on your localhost
 The instructions are clearly stated in the README.md file of the repository and are illustrated as follows:
 * Navigate to the Client Folder `cd ../client`
 * Run the folllowing command to install the dependencies `npm install`
@@ -18,4 +18,5 @@ The instructions are clearly stated in the README.md file of the repository and 
 * Run the folllowing command to install the dependencies `npm install`
 * Run the folllowing to start the app `npm start`
 
-### 2. 
+## 2. Pushing the images to Docker Hub
+Once the above procedures are followed, push both the **../yolo_client:v.0.0.1** and the **../yolo_backend:v.0.0.1**
