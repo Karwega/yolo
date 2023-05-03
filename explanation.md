@@ -4,6 +4,7 @@ Docker-compose Networking (Application port allocation and a bridge network impl
 Docker-compose volume definition and usage (where necessary).
 Git workflow used to achieve the task.
 
+# Yolomy Microservice Setup (explained)
 ## 1. Section 1
 ### Running the client-end and the back-end microservice on your localhost
 
