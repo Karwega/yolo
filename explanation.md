@@ -5,6 +5,9 @@ Docker-compose volume definition and usage (where necessary).
 Git workflow used to achieve the task.
 
 # Yolomy Microservice Setup (explained)
+Yolomy is a business that trades clothing. It has a microservice which helps in running of the business on an online instance. The microservice is divided into two parts of it that work together to assist in the seamless functionality of the service:
+    - Client (frontend)
+    - Backend
 ## 1. Section 1
 ### Running the client-end and the back-end microservice on your localhost
 
