@@ -12,12 +12,15 @@ Yolomy is a business that trades clothing. It has a microservice which helps in 
 
 ## 1. Running the client-end and the back-end microservice on your localhost
 The instructions are clearly stated in the README.md file of the repository and are illustrated as follows:
-* Navigate to the Client Folder `cd ../client`
+* Navigate to the Client folder `cd ../client`
 * Run the folllowing command to install the dependencies `npm install`
 * Run the folllowing to start the app `npm start`
-* Open a new terminal and run the same commands in the backend folder `cd ../backend`
+* Navigate to the backend folder `cd ../backend`
 * Run the folllowing command to install the dependencies `npm install`
 * Run the folllowing to start the app `npm start`
+
+## 2. Creating the Dockerfile
+For the microservice to run accordingly, a Dockerfile should be created in *.../client/* as well as *.../backend/* 
 
 ## 2. Pushing the images to Docker Hub
 Once the above procedures are followed, 
