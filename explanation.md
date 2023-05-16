@@ -48,3 +48,9 @@ Once the microservice is containerized, it should be run through playbooks. Foll
     <p>- A hosts file (<b>hosts</b>)</p>
     <p>- A playbook file (<b>playbook.yml</b>)</p>
     <p>- A variables file (<b>vars.yml</b>)</p>
+    <p><i>NB: Make sure to add the following in the Vagrantfile;</i></br>
+    `config.vm.network "forwarded_port", guest: 3000, host: 3000, protocol: "tcp"</br>
+    config.vm.network "forwarded_port", guest: 5000, host: 5000, protocol: "tcp"`
+    </p>
+* Configure the roles root directory with the command **ansible-galaxy init <i>role name</i>** . For the required functionality, **git**, **docker**, and **docker-compose** will be our role names. So the commands that will be written will be **ansible-galaxy init git**, **ansible-galaxy init docker** and **ansible-galaxy init docker-compose**
+* Run the command `vagrant up` to run up the service, and it should run seamlessly!
