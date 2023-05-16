@@ -29,8 +29,3 @@
     - name: Run docker compose
       include_role:
         name: docker-compose
-
-
-          
-
-    
