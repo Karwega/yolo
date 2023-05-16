@@ -39,3 +39,7 @@ Once the above procedures are followed,
 To confirm correct funtioning of the system, follow the below instructions, and if they run accordingly, the microservice is good to go!
 * Open a terminal and run the command `sudo docker compose up` to run the containers from the images. The website of the microservice should be up and running on the local address: <a href="http://localhost:3000/"><font color="blue">http://localhost:3000/</font></a>
 * Add a product or two in the site, and refresh the page to confirm that they have been added successfully. If so, you are good to go!
+
+## 6. Running it through a playbook
+Once the microservice is containerized, it should be run through playbooks. Follow the below instructions to guide you through that.
+** Make sure to have the required files, that is
