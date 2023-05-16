@@ -42,4 +42,9 @@ To confirm correct funtioning of the system, follow the below instructions, and 
 
 ## 6. Running it through a playbook
 Once the microservice is containerized, it should be run through playbooks. Follow the below instructions to guide you through that.
-** Make sure to have the required files, that is
+* Make sure to have the required files, that is:
+    <p>- An ansible file (<b>ansible.cfg</b>)</p>
+    <p>- A vagrant file (Vagrantfile)</p>
+    <p>- A hosts file (hosts)</p>
+    <p>- A playbook file (playbook.yml)</p>
+    <p>- A variables file (vars.yml)</p>
