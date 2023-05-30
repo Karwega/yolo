@@ -3,7 +3,7 @@ Yolomy is a business that trades clothing. It has a microservice which helps in 
     <p>- Client (frontend)</p>
     <p>- Backend</p>
 *NOTE: This project has already been bootstrapped*
-
+ 
 ## 1. Running the client-end and the back-end microservice on your localhost
 The instructions are clearly stated in the README.md file of the repository and are illustrated as follows:
 * Navigate to the Client folder `cd ../client`
