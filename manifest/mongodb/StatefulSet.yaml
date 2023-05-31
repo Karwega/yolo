@@ -3,7 +3,7 @@
   kind: "StatefulSet"
   metadata: 
     name: "mongo-db"
-    namespace: "development"
+    namespace: "default"
   spec:
     serviceName: "mongo-db" 
     replicas: 1
