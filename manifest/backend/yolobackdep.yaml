@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-app
-        image: figent/yolo_backend:v.0.0.1
+        image: karwega/yolo_backend:v.0.0.1
         imagePullPolicy: Always
 
         env:
