@@ -57,3 +57,4 @@ Once the microservice is containerized, it should be run through playbooks. Foll
 
 ## 7. Orchestration with Kubernetes
 A different directory is needed for this which contains a backend, client and mongodb folder that contain the necessary .yaml files needed for the ochestration such as service.yaml
+* Execute this command to create a persistent volume claim within our cluster
