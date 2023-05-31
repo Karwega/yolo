@@ -54,3 +54,6 @@ Once the microservice is containerized, it should be run through playbooks. Foll
     </p>
 * Configure the roles root directory with the command **ansible-galaxy init <i>'role name'</i>** . For the required functionality, **git**, **docker**, and **docker-compose** will be our role names. So the commands that will be written will be **ansible-galaxy init git**, **ansible-galaxy init docker** and **ansible-galaxy init docker-compose**
 * Run the command `vagrant up` to run up the service, and it should run seamlessly!
+
+## 7. Orchestration with Kubernetes
+A different directory is needed for this which contains a backend, client and mongodb folder that contain the necessary .yaml files needed for the ochestration such as service.yaml
