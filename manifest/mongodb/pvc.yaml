@@ -3,6 +3,7 @@
   kind: "PersistentVolumeClaim"
   metadata: 
     name: "mongodb-pvc"
+    namespace: "development"
     labels: 
       app: "mongo-db"
   spec: 
