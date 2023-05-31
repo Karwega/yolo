@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: client-app
-        image: karwega/yolo_client:v.0.0.2
+        image: karwega/yolo_client:v.0.0.3
         imagePullPolicy: Always
 
         env:
