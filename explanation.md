@@ -56,5 +56,33 @@ Once the microservice is containerized, it should be run through playbooks. Foll
 * Run the command `vagrant up` to run up the service, and it should run seamlessly!
 
 ## 7. Orchestration with Kubernetes
-A different directory is needed for this which contains a backend, client and mongodb folder that contain the necessary .yaml files needed for the ochestration such as service.yaml
-* Execute this command to create a persistent volume claim within our cluster
+A different directory is needed for this which contains a mongodb, client and backend folder that contain the necessary .yaml files needed for the ochestration. Follow the below steps in order to achieve this:
+* Navigate to the root directory **../yolo** to make sure that you are working on that particular project
+* Run `gcloud init` to configure Google Cloud CLI to be able to create and manage Google Cloud resources
+* Run `kubectl config get-contexts` to see the available clusters, then run `kubectl config use-context name-of-the-cluster` to choose a particular cluster. Replace the **name-of-the-cluster** with the name of the cluster you want to use.
+
+**Configuration of the StatefulSet for MongoDB**
+</br>
+In the terminal;
+* Run `kubectl create -f manifest/mongodb/pvc.yaml` to create a persistent volume claim.
+* Run `kubectl create -f manifest/mongodb/scn.yaml` to create a storage class.
+* Run `kubectl create -f manifest/mongodb/priorityclass.yaml` to set up a priorityClass.
+* Run `kubectl create -f manifest/mongodb/StatefulSet.yaml` to configure the pod.
+* Run `kubectl create -f manifest/mongodb/service.yaml` to correctly expose the pod.
+</br>
+
+**Configuration of the backend side**
+</br>
+In the terminal;
+* Run `kubectl create -f manifest/backend/yolobackdep.yaml` to configure the pod.
+* Run `kubectl create -f manifest/backend/service.yaml` to correctly expose the pod.
+</br>
+
+**Configuration of the client side**
+</br>
+In the terminal;
+* Run `kubectl create -f manifest/client/yoloclientdep.yaml` to configure the pod.
+* Run `kubectl create -f manifest/client/service.yaml` to correctly expose the pod.
+</br>
+
+* Run `kubectl get service` to confirm that the service is up and running. In the column *External IP*, use the IP Address provided for **yoloclient** followed by port **3000** to access the microservice using a web browser. For this particular project, http://35.231.243.232:3000/ is the link that was provided when this microservice was run initially.
