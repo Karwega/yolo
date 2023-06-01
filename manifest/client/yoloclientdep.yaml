@@ -17,6 +17,8 @@ spec:
       containers:
       - name: client-app
         image: karwega/yolo_client:v.0.0.3
+        stdin: true
+        tty: true
         imagePullPolicy: Always
 
         env:
