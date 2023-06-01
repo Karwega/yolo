@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: client-app
+  name: my-client-app
   labels:
     app: client-app
 spec:
